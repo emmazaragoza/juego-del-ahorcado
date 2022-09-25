@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge 2 | Juego del Ahorcado</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta content="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div-logo">
+        <img class="logo" src="./img/Logo-Alura.PNG" alt="Logo Alura" />
+      </div>
+      <div>
+        <h2 class="title">
+          juego del Ahorcado | Challenge 02 - Oracle && Alura Latam
+        </h2>
+      </div>
+      <div class="hombre-ahorcado">
+        <img id="hombre" alt="hombre-ahorcado" />
+      </div>
+      <div class="adivinado"></div>
+      <div class="errado"></div>
+      <form class="botones" action="javascript:void(0)">
+        <input
+          type="button"
+          class="btn-azul"
+          value="Nuevo juego"
+          onclick="nuevoJuego()"
+        />
+        <input type="button" value="Desistir" />
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
